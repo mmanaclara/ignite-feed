@@ -1,0 +1,16 @@
+.avatar {
+    box-sizing: initial;
+    object-fit: cover;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 0.8rem;
+}
+
+.avatarWithBorder {
+    object-fit: cover;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 0.8rem;
+    border: 0.4rem solid var(--gray-800);
+    outline: 0.2rem solid var(--green-500);
+}
